@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import torch
 from torchvision.models.segmentation import fcn_resnet50, FCN_ResNet50_Weights
 from PIL import Image
