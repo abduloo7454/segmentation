@@ -68,5 +68,5 @@ else:
     seg_image_pil = Image.fromarray(seg_image)
 
     st.image(seg_image_pil, caption="Segmentation Mask", use_column_width=True)
-else:
-    st.info("Please upload an image to segment.")
+    else:
+        st.info("Please upload an image to segment.")
